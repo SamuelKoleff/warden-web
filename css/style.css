@@ -1,12 +1,14 @@
 :root{
-  --lightColor: #2E073F;
-  --darkColor: #EBD3F8;
+  --purpleDarkColor: #2E073F;
+  --purpleColor: #7A1CAC;
+  --purpleLightColor: #AD49E1;
+  --lightColor: #EBD3F8;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --lightColor: #EBD3F8;
-    --darkColor: #2E073F;
+    --lightColor: #2E073F;
+    --purpleDarkColor: #EBD3F8;
   }
 }
 
@@ -19,7 +21,7 @@ body {
     font-style: normal;
     user-select: none;
     color: var(--lightColor);
-    background-color: var(--darkColor);
+    background-color: var(--purpleDarkColor);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,15 +29,9 @@ body {
 }
 
 #titulo {
-  margin-top: 125px;
+  margin-top: 50%;
   text-align: center;
-  margin-bottom: 0%;
-  font-weight: 40px;
-}
-
-#descripcion {
-  font-weight: 30px;
-  margin-top: 15px;
+  margin-bottom: 30%;
 }
 
 #contenedor-formulario {
