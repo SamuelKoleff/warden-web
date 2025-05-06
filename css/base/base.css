@@ -1,0 +1,31 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*/
+
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/montserrat-v29-latin-regular.woff2') format('woff2'); 
+}
+
+:root{
+  --purpleDarkColor: #2E073F;
+  --purpleColor: #7A1CAC;
+  --purpleLightColor: #AD49E1;
+  --lightColor: #EBD3F8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --lightColor: #2E073F;
+    --purpleColor: #AD49E1;
+    --purpleLightColor: #7A1CAC;
+    --purpleDarkColor: #EBD3F8;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--purpleColor);
+}
