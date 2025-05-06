@@ -2,7 +2,7 @@ header {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 75px;
+  height: 15vh;
   background-color: var(--lightColor);
   display: flex;
   flex-direction: row;
@@ -10,11 +10,11 @@ header {
   justify-content: space-between;
 
   h1 {
-    margin: 20px;
+    margin: 15px;
   }
   
   ul {
-    margin: 20px;
+    margin: 15px;
     display: flex;
     flex-direction: row;
     list-style-type: none;
