@@ -1,0 +1,90 @@
+:root{
+  --lightColor: #2E073F;
+  --darkColor: #EBD3F8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --lightColor: #EBD3F8;
+    --darkColor: #2E073F;
+  }
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    user-select: none;
+    color: var(--lightColor);
+    background-color: var(--darkColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#titulo {
+  margin-top: 125px;
+  text-align: center;
+  margin-bottom: 0%;
+  font-weight: 40px;
+}
+
+#descripcion {
+  font-weight: 30px;
+  margin-top: 15px;
+}
+
+#contenedor-formulario {
+  height: 125px;
+}
+
+#form {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.column-between {
+  margin-top:5px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#submit-boton {
+  margin-top: 12px;
+  background-color: #AD49E1;
+  border-radius: 12px;
+  padding: 10px 24px;
+}
+
+.shadow-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input {
+  border-radius: 12px;
+  padding: 10px 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #AD49E1;
+}
+
+#contenedor-info{
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
