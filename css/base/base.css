@@ -14,6 +14,7 @@
   --purpleColor: #7A1CAC;
   --purpleLightColor: #AD49E1;
   --lightColor: #EBD3F8;
+  --backColor: #FFFF;
 }
 
 @media (prefers-color-scheme: dark) {

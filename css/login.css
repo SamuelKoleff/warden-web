@@ -24,7 +24,7 @@ body {
 }
 
 #titulo {
-  margin-top: 15vh;
+  margin-top: 5vh;
   text-align: center;
   margin-bottom: 5vh;
   font-size: 1.5rem;
@@ -111,7 +111,7 @@ body {
   }
   
   #titulo {
-    margin-top: 20vh;
+    marign-top: 5vh;
     margin-bottom: 8vh;
     font-size: 1.8rem;
   }
