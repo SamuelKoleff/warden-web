@@ -1,7 +1,6 @@
 header {
   position: relative;
   top: 0;
-  width: 100%;
   background-color: var(--lightColor);
   display: flex;
   flex-direction:column;
@@ -40,12 +39,14 @@ header {
   header {
     flex-direction: row;
     justify-content: space-between;
-    
+    margin: 1vh 5vh;
+
     ul {
       margin: 1vh;
       display: flex;
       flex-direction: row;
       list-style-type: none;
+
 
       li{
         margin: 10px;

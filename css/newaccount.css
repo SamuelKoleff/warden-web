@@ -4,18 +4,14 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  width: 100%;
-  margin: 0;
-  padding: 0 15px;
+  margin: 1vh;
   font-style: normal;
   user-select: none;
   color: var(--purpleDarkColor);
   background-color: var(--lightColor);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-content: center;
   flex-direction: column;
-  box-sizing: border-box;
 }
 
 #contenedor-titulo{
@@ -35,6 +31,7 @@ body {
   max-width: 350px;
   height: auto;
   margin-bottom: 20px;
+  margin: auto;
 }
 
 #form {
