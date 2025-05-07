@@ -70,7 +70,7 @@ body {
 
   #contenedor-1{
     flex-direction: row;
-    justify-items: space-evenly;
+    gap: 5px;
   }
 
   #contenedor-imagenes {
@@ -84,7 +84,7 @@ body {
     justify-content:center;
     text-align: center;
     align-items: center;
-    margin: auto 0;
+    margin: auto 5px;
   }
 }
 
