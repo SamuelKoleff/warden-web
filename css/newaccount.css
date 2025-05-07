@@ -87,6 +87,7 @@ body {
   padding: 4px;
   border-radius: 10px;
   background-color: var(--purpleLightColor);
+  color: var(--purpleDarkColor);
 }
 
 #form p{
